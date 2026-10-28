@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+    <linearGradient id="emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="magenta" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#d946ef" />
+    </linearGradient>
+    <linearGradient id="cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" rx="16" fill="url(#bg)" stroke="#1f2937" stroke-width="2"/>
+
+  <!-- Decorative Grid & Nodes -->
+  <g opacity="0.15" stroke="#4b5563" stroke-width="1">
+    <path d="M 0,90 L 1200,90 M 0,180 L 1200,180 M 0,270 L 1200,270" />
+    <path d="M 300,0 L 300,360 M 600,0 L 600,360 M 900,0 L 900,360" />
+  </g>
+
+  <!-- 3D Token Router Nodes -->
+  <g transform="translate(150, 180)">
+    <circle cx="0" cy="0" r="45" fill="url(#emerald)" opacity="0.9" />
+    <text x="0" y="8" font-family="system-ui, sans-serif" font-weight="bold" font-size="18" fill="#ffffff" text-anchor="middle">Compress</text>
+  </g>
+
+  <g transform="translate(450, 180)">
+    <polygon points="0,-45 45,0 0,45 -45,0" fill="url(#cyan)" opacity="0.9" />
+    <text x="0" y="6" font-family="system-ui, sans-serif" font-weight="bold" font-size="16" fill="#ffffff" text-anchor="middle">Matrix</text>
+  </g>
+
+  <g transform="translate(750, 180)">
+    <circle cx="0" cy="0" r="45" fill="url(#magenta)" opacity="0.9" />
+    <text x="0" y="8" font-family="system-ui, sans-serif" font-weight="bold" font-size="18" fill="#ffffff" text-anchor="middle">Route</text>
+  </g>
+
+  <!-- Title Text -->
+  <text x="950" y="150" font-family="system-ui, sans-serif" font-weight="900" font-size="32" fill="#f9fafb" text-anchor="middle">OMNI-TOKEN</text>
+  <text x="950" y="195" font-family="system-ui, sans-serif" font-weight="800" font-size="28" fill="#10b981" text-anchor="middle">ROUTER MCP</text>
+  <text x="950" y="230" font-family="system-ui, sans-serif" font-weight="500" font-size="14" fill="#9ca3af" text-anchor="middle">v1.2.0 • Token &amp; Cost Optimizer</text>
+</svg>
