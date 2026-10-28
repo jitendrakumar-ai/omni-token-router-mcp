@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "omni-token-router-mcp"
+version = "1.2.0"
+description = "Multi-LLM Token Cost & Complexity Router MCP Engine"
+readme = "README.md"
+authors = [{ name = "Jitendra Kumar", email = "jitendrakumar-ai@users.noreply.github.com" }]
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+omni-token-router-mcp = "omni_token_router_mcp:main"
